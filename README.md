@@ -27,6 +27,14 @@ bash ~/Projects/PhenomML/cc-code-tools/setup-claude.sh --project /path/to/projec
 git pull && bash ~/Projects/PhenomML/cc-code-tools/setup-claude.sh
 ```
 
+## Relationship to cc-tools
+
+cc-code-tools is a peer of [cc-tools](https://github.com/PhenomML/cc-tools), which it depends on.
+cc-tools is for anyone reading scientific papers. cc-code-tools is the additional layer for research coders.
+
+The `setup-claude.sh` scripts are independent but both must be run for a full code-wiki install.
+Tracked in cc-tools [issue #18](https://github.com/PhenomML/cc-tools/issues/18).
+
 ## Usage
 
 Run from inside a `wiki/` directory that lives within the code repo:
